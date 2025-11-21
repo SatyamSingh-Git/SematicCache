@@ -1,0 +1,14 @@
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+numpy
+scikit-learn
+streamlit
+python-multipart
+requests
+rank_bm25
+pandas
+altair
+wordcloud
+matplotlib
