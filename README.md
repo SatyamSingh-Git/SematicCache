@@ -71,23 +71,23 @@ The system is built on a modular architecture separating ingestion, core search 
 
 ```mermaid
 graph TD
-    User[User Query] --> UI[Streamlit UI / API]
-    UI --> CacheCheck{Query Cache Hit?}
+    User["User Query"] --> UI["Streamlit UI / API"]
+    UI --> CacheCheck{"Query Cache Hit?"}
     
-    CacheCheck -- Yes (Similarity > 0.9) --> ReturnCache[Return Cached Results]
+    CacheCheck -- "Yes (Similarity > 0.9)" --> ReturnCache["Return Cached Results"]
     
-    CacheCheck -- No --> Embed[Generate Query Embedding]
-    Embed --> VectorSearch[Vector Search (FAISS/Numpy)]
-    Embed --> KeywordSearch[BM25 Search]
+    CacheCheck -- No --> Embed["Generate Query Embedding"]
+    Embed --> VectorSearch["Vector Search (FAISS/Numpy)"]
+    Embed --> KeywordSearch["BM25 Search"]
     
-    VectorSearch --> Merge[Merge & Normalize Scores]
+    VectorSearch --> Merge["Merge & Normalize Scores"]
     KeywordSearch --> Merge
     
-    Merge --> Rerank[Cross-Encoder Re-ranking]
-    Rerank --> UpdateCache[Update Query Cache]
-    UpdateCache --> ReturnNew[Return Fresh Results]
+    Merge --> Rerank["Cross-Encoder Re-ranking"]
+    Rerank --> UpdateCache["Update Query Cache"]
+    UpdateCache --> ReturnNew["Return Fresh Results"]
     
-    ReturnCache --> Display[Display Results]
+    ReturnCache --> Display["Display Results"]
     ReturnNew --> Display
 ```
 
