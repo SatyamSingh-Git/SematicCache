@@ -35,7 +35,6 @@ The data flow will operate in two distinct pipelines:
 
 ## 3\. Detailed Development Plan
 
-Follow this step-by-step roadmap to build the system logically.
 
 ### Phase 1: Environment & Data Setup
 
