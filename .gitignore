@@ -3,5 +3,6 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
-data/
+# data/  <-- Commented out to allow data upload for Streamlit Cloud
 !data/.gitkeep
+
