@@ -224,7 +224,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📧 Contact
-
-
-Project Link: [https://github.com/yourusername/SemanticCache](https://github.com/yourusername/SemanticCache)
+## 📧 Contact: theindianboy555@gmail.com
