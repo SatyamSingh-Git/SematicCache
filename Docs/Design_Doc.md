@@ -95,7 +95,7 @@ The data flow will operate in two distinct pipelines:
 
 -----
 
-## 4\. Recommended Directory Structure
+## 4\. Initial Directory Structure
 
 [cite\_start]This structure is modular [cite: 65] and separates concerns effectively.
 
