@@ -261,7 +261,7 @@ else:
         if st.button("Artificial Intelligence"):
             pass # In a real app, this would trigger search
     with c2:
-        if st.button("Machine Learning"):
+        if st.button("World War II"):
             pass
     with c3:
         if st.button("Neural Networks"):
