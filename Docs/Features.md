@@ -1,4 +1,4 @@
-List features, final checklist for development.
+List features, and final checklist for development.
 
 ### 1. Data Ingestion & Preprocessing Module
 *Responsible for loading raw text and preparing it for the AI models.*
