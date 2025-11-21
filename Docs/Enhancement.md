@@ -1,4 +1,4 @@
-Enhancements those can be done are categorized by **Algorithmic Improvements** (showing AI depth) and **Software Engineering** (showing your production readiness).
+Enhancements those can be done are categorized by **Algorithmic Improvements** (showing AI depth) and **Software Engineering** (showing production readiness).
 
 ### 1. Algorithmic & Retrieval Quality Enhancements
 
